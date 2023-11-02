@@ -44,6 +44,22 @@ body {
 
 .mainJam img {
    width: 37vw;
+   animation: bounce 2s ease infinite;
+}
+
+@keyframes bounce {
+   0% {
+      transform: translateY(-10%);
+   }
+
+   50% {
+      transform: translateY(10%);
+   }
+
+   100% {
+      transform: translateY(-10%);
+   }
+
 }
 
 .mainleft h1 {
@@ -155,7 +171,6 @@ body {
 
 .navbar2 {
    background-image: linear-gradient(to bottom right, rgba(67, 67, 67, 0.995), rgba(24, 18, 15, 0.998));
-   overflow: ;
    display: flex;
    bottom: 0;
    width: 100%;
@@ -172,9 +187,8 @@ body {
 .navbar2 .info_left .h1 {
    font-size: 4vw;
    font-weight: bold;
-   color: #ba52ffd7;
    padding-top: 2vw;
-
+   color: #ba52ffd7;
 }
 
 .navbar2 .info_left .h2 {
