@@ -65,8 +65,17 @@ body {
 .mainleft h1 {
    font-size: 6vw;
    color: rgb(145, 43, 255);
+   animation: glow 1s ease-in-out infinite alternate;
 }
 
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 6px #fff, 0 0 6px #e60073, 0 0 7px #e60073, 0 0 8px #e60073, 0 0 8px #e60073, 0 0 10px #e60073;
+  }
+  to {
+    text-shadow: 0 0 6px #fff, 0 0 7px #ff4da6, 0 0 8px #ff4da6, 0 0 9px #ff4da6, 0 0 10px #ff4da6, 0 0 11px #ff4da6, 0 0 12px #ff4da6;
+  }
+}
 .mainleft h4 {
    font-size: 3vw;
    font-weight: 100;
