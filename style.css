@@ -103,8 +103,8 @@ body {
 }
 #blogSecR {
    color: white !important;
-   margin-right: 45vw;
-   margin-left: 0;
+   margin-right: 0;
+   margin-left: 45vw;
    width: 85vw;
    padding: 10px 12vw;
    display: flex;
