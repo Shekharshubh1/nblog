@@ -90,17 +90,28 @@ body {
    color: #8e8e8e;
 }
 
-#blogSec {
+#blogSecL {
    color: white !important;
-   width: 100%;
-   margin: 0 auto;
+   margin-right: 45vw;
+   margin-left: 0;
+   width: 85vw;
    padding: 10px 12vw;
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: center !important;
 }
-
+#blogSecL {
+   color: white !important;
+   margin-right: 45vw;
+   margin-left: 0;
+   width: 85vw;
+   padding: 10px 12vw;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center !important;
+}
 .blogs {
    margin-bottom: 2vw;
    margin-right: auto;
